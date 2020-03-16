@@ -46,7 +46,7 @@ class TitleScene: RoutingUtilityScene {
             birdNode.position = targetNode.position
             birdNode.zPosition = targetNode.zPosition
             scene?.addChild(birdNode)
-        case .coinCat, .gamecat, .hipCat, .jazzCat, .lifelopeCat:
+        case .hornedGreenBird, .alien, .whiteBlueBird, .dragon, .wasp:
             let player = NyancatNode(animatedGif: assetName, correctAspectRatioFor: playerSize.width)
             player.xScale = 1.0
             player.yScale = 1.0

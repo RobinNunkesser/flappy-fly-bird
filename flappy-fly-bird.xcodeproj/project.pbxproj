@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4600092417F78200758DCC /* wasp.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F4600062417F78100758DCC /* wasp.gif */; };
+		6F46000A2417F78200758DCC /* alien.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F4600072417F78100758DCC /* alien.gif */; };
+		6F46000B2417F78200758DCC /* dragon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F4600082417F78200758DCC /* dragon.gif */; };
+		6F4600122418093200758DCC /* animated-gamecat-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F46000C2418092E00758DCC /* animated-gamecat-nyan.gif */; };
+		6F4600132418093200758DCC /* animated-nyan-hip.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F46000D2418092E00758DCC /* animated-nyan-hip.gif */; };
+		6F4600142418093200758DCC /* animated-nyan-squirrel.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F46000E2418092F00758DCC /* animated-nyan-squirrel.gif */; };
+		6F4600152418093200758DCC /* animated-nyancoin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F46000F2418093000758DCC /* animated-nyancoin.gif */; };
+		6F4600162418093200758DCC /* animated-lifealope-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F4600102418093000758DCC /* animated-lifealope-nyan.gif */; };
+		6F4600172418093200758DCC /* animated-jazz-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F4600112418093100758DCC /* animated-jazz-nyan.gif */; };
+		6F73A818241FC05E00E532A1 /* bird-white-blue.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F73A815241FC05D00E532A1 /* bird-white-blue.gif */; };
+		6F73A819241FC05E00E532A1 /* rabbit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F73A816241FC05D00E532A1 /* rabbit.gif */; };
+		6F73A81A241FC05E00E532A1 /* horned-green-bird.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6F73A817241FC05D00E532A1 /* horned-green-bird.gif */; };
 		A90192FB21F1BDF40020C612 /* PhysicsContactable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90192FA21F1BDF40020C612 /* PhysicsContactable.swift */; };
 		A90292E020B1909A0043C9B2 /* NyancatRainbowNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90292DF20B1909A0043C9B2 /* NyancatRainbowNode.swift */; };
 		A903943420AD94F000376CC3 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903943320AD94F000376CC3 /* UserDefaults.swift */; };
@@ -28,12 +40,6 @@
 		A941362320C4067C007FD610 /* Bool+PipeRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A941362220C4067C007FD610 /* Bool+PipeRandom.swift */; };
 		A94A97F721A287890087C018 /* InfiniteSpriteScrollNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A97F621A287890087C018 /* InfiniteSpriteScrollNode.swift */; };
 		A950485820BADB7A0020ECD9 /* SKSpriteNode+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = A950485720BADB7A0020ECD9 /* SKSpriteNode+GIF.swift */; };
-		A950485A20BAE2170020ECD9 /* animated-nyan-hip.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950485920BAE2170020ECD9 /* animated-nyan-hip.gif */; };
-		A950486120BAE29C0020ECD9 /* animated-gamecat-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950485C20BAE29C0020ECD9 /* animated-gamecat-nyan.gif */; };
-		A950486220BAE29C0020ECD9 /* animated-nyan-squirrel.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950485D20BAE29C0020ECD9 /* animated-nyan-squirrel.gif */; };
-		A950486320BAE29C0020ECD9 /* animated-nyancoin.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950485E20BAE29C0020ECD9 /* animated-nyancoin.gif */; };
-		A950486420BAE29C0020ECD9 /* animated-jazz-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950485F20BAE29C0020ECD9 /* animated-jazz-nyan.gif */; };
-		A950486520BAE29C0020ECD9 /* animated-lifealope-nyan.gif in Resources */ = {isa = PBXBuildFile; fileRef = A950486020BAE29C0020ECD9 /* animated-lifealope-nyan.gif */; };
 		A992D8B620A03B90003A9998 /* SceneOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A992D8B520A03B90003A9998 /* SceneOverlay.swift */; };
 		A9A3139920B0006400B36175 /* TitleScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9A3139820B0006400B36175 /* TitleScene iPad.sks */; };
 		A9A3139D20B0226D00B36175 /* SettingsScene iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = A9A3139C20B0226D00B36175 /* SettingsScene iPad.sks */; };
@@ -95,6 +101,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F4600062417F78100758DCC /* wasp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wasp.gif; sourceTree = "<group>"; };
+		6F4600072417F78100758DCC /* alien.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alien.gif; sourceTree = "<group>"; };
+		6F4600082417F78200758DCC /* dragon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dragon.gif; sourceTree = "<group>"; };
+		6F46000C2418092E00758DCC /* animated-gamecat-nyan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-gamecat-nyan.gif"; sourceTree = "<group>"; };
+		6F46000D2418092E00758DCC /* animated-nyan-hip.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-nyan-hip.gif"; sourceTree = "<group>"; };
+		6F46000E2418092F00758DCC /* animated-nyan-squirrel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-nyan-squirrel.gif"; sourceTree = "<group>"; };
+		6F46000F2418093000758DCC /* animated-nyancoin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-nyancoin.gif"; sourceTree = "<group>"; };
+		6F4600102418093000758DCC /* animated-lifealope-nyan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-lifealope-nyan.gif"; sourceTree = "<group>"; };
+		6F4600112418093100758DCC /* animated-jazz-nyan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-jazz-nyan.gif"; sourceTree = "<group>"; };
+		6F73A815241FC05D00E532A1 /* bird-white-blue.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "bird-white-blue.gif"; sourceTree = "<group>"; };
+		6F73A816241FC05D00E532A1 /* rabbit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rabbit.gif; sourceTree = "<group>"; };
+		6F73A817241FC05D00E532A1 /* horned-green-bird.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "horned-green-bird.gif"; sourceTree = "<group>"; };
 		A90192FA21F1BDF40020C612 /* PhysicsContactable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsContactable.swift; sourceTree = "<group>"; };
 		A90292DF20B1909A0043C9B2 /* NyancatRainbowNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyancatRainbowNode.swift; sourceTree = "<group>"; };
 		A903943320AD94F000376CC3 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
@@ -116,12 +134,6 @@
 		A941362220C4067C007FD610 /* Bool+PipeRandom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+PipeRandom.swift"; sourceTree = "<group>"; };
 		A94A97F621A287890087C018 /* InfiniteSpriteScrollNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteSpriteScrollNode.swift; sourceTree = "<group>"; };
 		A950485720BADB7A0020ECD9 /* SKSpriteNode+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+GIF.swift"; sourceTree = "<group>"; };
-		A950485920BAE2170020ECD9 /* animated-nyan-hip.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-nyan-hip.gif"; sourceTree = "<group>"; };
-		A950485C20BAE29C0020ECD9 /* animated-gamecat-nyan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-gamecat-nyan.gif"; sourceTree = "<group>"; };
-		A950485D20BAE29C0020ECD9 /* animated-nyan-squirrel.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-nyan-squirrel.gif"; sourceTree = "<group>"; };
-		A950485E20BAE29C0020ECD9 /* animated-nyancoin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-nyancoin.gif"; sourceTree = "<group>"; };
-		A950485F20BAE29C0020ECD9 /* animated-jazz-nyan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-jazz-nyan.gif"; sourceTree = "<group>"; };
-		A950486020BAE29C0020ECD9 /* animated-lifealope-nyan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "animated-lifealope-nyan.gif"; sourceTree = "<group>"; };
 		A992D8B520A03B90003A9998 /* SceneOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneOverlay.swift; sourceTree = "<group>"; };
 		A9A3139820B0006400B36175 /* TitleScene iPad.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "TitleScene iPad.sks"; sourceTree = "<group>"; };
 		A9A3139C20B0226D00B36175 /* SettingsScene iPad.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "SettingsScene iPad.sks"; sourceTree = "<group>"; };
@@ -256,12 +268,18 @@
 		A950485B20BAE2500020ECD9 /* Animated Players */ = {
 			isa = PBXGroup;
 			children = (
-				A950485C20BAE29C0020ECD9 /* animated-gamecat-nyan.gif */,
-				A950485F20BAE29C0020ECD9 /* animated-jazz-nyan.gif */,
-				A950486020BAE29C0020ECD9 /* animated-lifealope-nyan.gif */,
-				A950485D20BAE29C0020ECD9 /* animated-nyan-squirrel.gif */,
-				A950485E20BAE29C0020ECD9 /* animated-nyancoin.gif */,
-				A950485920BAE2170020ECD9 /* animated-nyan-hip.gif */,
+				6F73A815241FC05D00E532A1 /* bird-white-blue.gif */,
+				6F73A817241FC05D00E532A1 /* horned-green-bird.gif */,
+				6F73A816241FC05D00E532A1 /* rabbit.gif */,
+				6F4600072417F78100758DCC /* alien.gif */,
+				6F4600082417F78200758DCC /* dragon.gif */,
+				6F4600062417F78100758DCC /* wasp.gif */,
+				6F46000C2418092E00758DCC /* animated-gamecat-nyan.gif */,
+				6F4600112418093100758DCC /* animated-jazz-nyan.gif */,
+				6F4600102418093000758DCC /* animated-lifealope-nyan.gif */,
+				6F46000D2418092E00758DCC /* animated-nyan-hip.gif */,
+				6F46000E2418092F00758DCC /* animated-nyan-squirrel.gif */,
+				6F46000F2418093000758DCC /* animated-nyancoin.gif */,
 			);
 			path = "Animated Players";
 			sourceTree = "<group>";
@@ -603,21 +621,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F73A818241FC05E00E532A1 /* bird-white-blue.gif in Resources */,
 				A9CA8F6D209C9130004CB9D4 /* Coin.wav in Resources */,
+				6F4600142418093200758DCC /* animated-nyan-squirrel.gif in Resources */,
 				A9EBCCAB20B9785400BB08A3 /* CharactersScene.sks in Resources */,
 				A9ACB96B2099B42300966991 /* Actions.sks in Resources */,
 				A903943620AD9D1200376CC3 /* SnowParticleEffect.sks in Resources */,
+				6F73A819241FC05E00E532A1 /* rabbit.gif in Resources */,
 				A9ACB9732099B7AF00966991 /* rollover1.mp3 in Resources */,
+				6F4600162418093200758DCC /* animated-lifealope-nyan.gif in Resources */,
 				A9ACB9282099A1F200966991 /* Main.storyboard in Resources */,
 				A9ACB9972099F19E00966991 /* .gitignore in Resources */,
-				A950486520BAE29C0020ECD9 /* animated-lifealope-nyan.gif in Resources */,
+				6F4600152418093200758DCC /* animated-nyancoin.gif in Resources */,
+				6F4600092417F78200758DCC /* wasp.gif in Resources */,
 				A9ACB9752099B7AF00966991 /* switch3.mp3 in Resources */,
 				A9EC755E20A6CB03007C42EC /* SettingsScene.sks in Resources */,
+				6F46000B2417F78200758DCC /* dragon.gif in Resources */,
 				A9ACB9782099B7AF00966991 /* rollover2.mp3 in Resources */,
 				A9ACB9742099B7AF00966991 /* click1.mp3 in Resources */,
 				A9A3139920B0006400B36175 /* TitleScene iPad.sks in Resources */,
 				A935954D20C27B81000FF0FA /* retro_transition_fade_from_top.fsh in Resources */,
-				A950486420BAE29C0020ECD9 /* animated-jazz-nyan.gif in Resources */,
 				A9ACB91F2099A1F200966991 /* GameScene.sks in Resources */,
 				A9CA8F74209C954E004CB9D4 /* Hit_Hurt.wav in Resources */,
 				A9ACB92A2099A1F300966991 /* Assets.xcassets in Resources */,
@@ -626,26 +649,27 @@
 				A9ACB9772099B7AF00966991 /* switch2.mp3 in Resources */,
 				A935954B20C27B81000FF0FA /* retro_transition_fade_from_centre.fsh in Resources */,
 				A9CC5C3A20A02D0A00040E61 /* PauseScene.sks in Resources */,
+				6F4600172418093200758DCC /* animated-jazz-nyan.gif in Resources */,
 				A9B9C72B209EE3290045548D /* TitleScene.sks in Resources */,
+				6F4600122418093200758DCC /* animated-gamecat-nyan.gif in Resources */,
 				A903943A20AD9E7900376CC3 /* RainParticleEffect.sks in Resources */,
 				A9B14F1820A57575005221BA /* PrePlayScene.sks in Resources */,
+				6F4600132418093200758DCC /* animated-nyan-hip.gif in Resources */,
+				6F46000A2417F78200758DCC /* alien.gif in Resources */,
 				A935954C20C27B81000FF0FA /* retro_transition_fade_from_top_left.fsh in Resources */,
 				A9ACB92D2099A1F300966991 /* LaunchScreen.storyboard in Resources */,
 				A9B14F1C20A5796E005221BA /* clock-final-tick.mp3 in Resources */,
-				A950486120BAE29C0020ECD9 /* animated-gamecat-nyan.gif in Resources */,
+				6F73A81A241FC05E00E532A1 /* horned-green-bird.gif in Resources */,
 				A9CA8F72209C9549004CB9D4 /* POL-catch-them-all-short.wav in Resources */,
 				A9A313A120B0239100B36175 /* GameScene iPad.sks in Resources */,
 				A9EC756020A6D0F1007C42EC /* ScoreScene.sks in Resources */,
 				A9A3139D20B0226D00B36175 /* SettingsScene iPad.sks in Resources */,
-				A950486320BAE29C0020ECD9 /* animated-nyancoin.gif in Resources */,
 				A92E72EC209D84AE0015F647 /* Pixel Digivolve.otf in Resources */,
 				A9A313A520B026E000B36175 /* FailedScene iPad.sks in Resources */,
 				A9B14F1B20A5796E005221BA /* clock-tick.mp3 in Resources */,
 				A935954E20C27B81000FF0FA /* retro_transition_fade_to_centre.fsh in Resources */,
-				A950486220BAE29C0020ECD9 /* animated-nyan-squirrel.gif in Resources */,
 				A9A3139F20B022B100B36175 /* ScoreScene iPad.sks in Resources */,
 				A9ACB9762099B7AF00966991 /* click2.mp3 in Resources */,
-				A950485A20BAE2170020ECD9 /* animated-nyan-hip.gif in Resources */,
 				A9CA8F6F209C9233004CB9D4 /* POL-flight-master-short.wav in Resources */,
 				A903943B20AD9E7900376CC3 /* Particles.xcassets in Resources */,
 				A9B14F1F20A588BB005221BA /* TouchToFlyScene.sks in Resources */,
@@ -842,13 +866,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5W8256FV33;
+				DEVELOPMENT_TEAM = YKW4K6F98F;
 				INFOPLIST_FILE = "$(SRCROOT)/flappy-fly-bird/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.flappy-fly-bird";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.isd.hshl.flappy-fly-bird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -860,13 +884,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5W8256FV33;
+				DEVELOPMENT_TEAM = YKW4K6F98F;
 				INFOPLIST_FILE = "$(SRCROOT)/flappy-fly-bird/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.flappy-fly-bird";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.isd.hshl.flappy-fly-bird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

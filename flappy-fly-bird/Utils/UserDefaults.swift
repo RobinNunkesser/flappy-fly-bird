@@ -81,11 +81,11 @@ enum Difficulty: Double {
 
 enum PlayableCharacter: String {
     case bird = "bird"
-    case gamecat = "gameCat"
-    case jazzCat = "jazzCat"
-    case lifelopeCat = "lifelopeCat"
-    case coinCat = "coinCat"
-    case hipCat = "hipCat"
+    case alien = "alien"
+    case dragon = "dragon"
+    case wasp = "wasp"
+    case hornedGreenBird = "hornedGreenBird"
+    case whiteBlueBird = "whiteBlueBird"
 }
 
 extension PlayableCharacter {
@@ -93,16 +93,16 @@ extension PlayableCharacter {
         switch self {
         case .bird:
             return "Bird Right"
-        case .coinCat:
-            return "animated-nyancoin"
-        case .gamecat:
-            return "animated-gamecat-nyan"
-        case .hipCat:
-            return "animated-nyan-hip"
-        case .jazzCat:
-            return "animated-jazz-nyan"
-        case .lifelopeCat:
-            return "animated-lifealope-nyan"
+        case .hornedGreenBird:
+            return "horned-green-bird"
+        case .alien:
+            return "alien"
+        case .whiteBlueBird:
+            return "bird-white-blue"
+        case .dragon:
+            return "dragon"
+        case .wasp:
+            return "wasp"
         }
     }
 }

@@ -123,7 +123,7 @@ class PlayingState: GKState {
                 animationTimeInterval: animationTimeInterval,
                 withTextureAtlas: assetName,
                 size: adapter.playerSize)
-        case .coinCat, .gamecat, .hipCat, .jazzCat, .lifelopeCat:
+        case .hornedGreenBird, .alien, .whiteBlueBird, .dragon, .wasp:
             let player = NyancatNode(
                 animatedGif: assetName,
                 correctAspectRatioFor: adapter.playerSize.width)
@@ -151,7 +151,7 @@ class PlayingState: GKState {
         switch player {
         case .bird:
             playerNode.position = CGPoint(x: playerNode.size.width / 2 + 50, y: scene.size.height / 2)
-        case .coinCat, .gamecat, .hipCat, .jazzCat, .lifelopeCat:
+        case .hornedGreenBird, .alien, .whiteBlueBird, .dragon, .wasp:
             playerNode.position = CGPoint(x: (playerNode.size.width / 2) - 20, y: scene.size.height / 2)
         }
         playerNode.zPosition = 10

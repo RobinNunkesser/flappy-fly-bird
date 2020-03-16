@@ -26,30 +26,30 @@ class CharactersScene: RoutingUtilityScene {
             
             let scale = CGPoint(x: 0.6, y: 0.6)
             
-            let gameCat = childNode(withName: PlayableCharacter.gamecat.rawValue) as? NyancatNode
+            let gameCat = childNode(withName: PlayableCharacter.alien.rawValue) as? NyancatNode
             gameCat?.xScale = scale.x
             gameCat?.yScale = scale.y
-            playableCharacters[.gamecat] = gameCat
+            playableCharacters[.alien] = gameCat
             
-            let coinCat = childNode(withName: PlayableCharacter.coinCat.rawValue) as? NyancatNode
+            let coinCat = childNode(withName: PlayableCharacter.hornedGreenBird.rawValue) as? NyancatNode
             coinCat?.xScale = scale.x
             coinCat?.yScale = scale.y
-            playableCharacters[.coinCat] = coinCat
+            playableCharacters[.hornedGreenBird] = coinCat
             
-            let hipCat = childNode(withName: PlayableCharacter.hipCat.rawValue) as? NyancatNode
+            let hipCat = childNode(withName: PlayableCharacter.whiteBlueBird.rawValue) as? NyancatNode
             hipCat?.xScale = scale.x
             hipCat?.yScale = scale.y
-            playableCharacters[.hipCat] = hipCat
+            playableCharacters[.whiteBlueBird] = hipCat
             
-            let jazzCat = childNode(withName: PlayableCharacter.jazzCat.rawValue) as? NyancatNode
+            let jazzCat = childNode(withName: PlayableCharacter.dragon.rawValue) as? NyancatNode
             jazzCat?.xScale = scale.x
             jazzCat?.yScale = scale.y
-            playableCharacters[.jazzCat] = jazzCat
+            playableCharacters[.dragon] = jazzCat
             
-            let lifelopeCat = childNode(withName: PlayableCharacter.lifelopeCat.rawValue) as? NyancatNode
+            let lifelopeCat = childNode(withName: PlayableCharacter.wasp.rawValue) as? NyancatNode
             lifelopeCat?.xScale = scale.x
             lifelopeCat?.yScale = scale.y
-            playableCharacters[.lifelopeCat] = lifelopeCat
+            playableCharacters[.wasp] = lifelopeCat
         }
         
         selectNode = childNode(withName: "Select Node") as? SKShapeNode
