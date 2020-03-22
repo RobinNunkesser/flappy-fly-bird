@@ -141,7 +141,7 @@
 		A9A313A020B0239100B36175 /* GameScene iPad.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "GameScene iPad.sks"; sourceTree = "<group>"; };
 		A9A313A220B0263C00B36175 /* PauseScene iPad.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "PauseScene iPad.sks"; sourceTree = "<group>"; };
 		A9A313A420B026E000B36175 /* FailedScene iPad.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "FailedScene iPad.sks"; sourceTree = "<group>"; };
-		A9ACB9192099A1F200966991 /* flappy-fly-bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flappy-fly-bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ACB9192099A1F200966991 /* Flying Bambam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flying Bambam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9ACB91C2099A1F200966991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9ACB91E2099A1F200966991 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A9ACB9222099A1F200966991 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -305,7 +305,7 @@
 		A9ACB91A2099A1F200966991 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9ACB9192099A1F200966991 /* flappy-fly-bird.app */,
+				A9ACB9192099A1F200966991 /* Flying Bambam.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -579,7 +579,7 @@
 			);
 			name = "flappy-fly-bird";
 			productName = "ios-spritekit-flappy-flying-bird";
-			productReference = A9ACB9192099A1F200966991 /* flappy-fly-bird.app */;
+			productReference = A9ACB9192099A1F200966991 /* Flying Bambam.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -872,8 +872,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.isd.hshl.flappy-fly-bird";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hshl.isd.flying-bambam";
+				PRODUCT_NAME = "Flying Bambam";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -890,8 +890,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.isd.hshl.flappy-fly-bird";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.hshl.isd.flying-bambam";
+				PRODUCT_NAME = "Flying Bambam";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
